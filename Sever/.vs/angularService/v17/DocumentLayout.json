@@ -1,0 +1,197 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user1\\Desktop\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4 (7)\\AngularRecipesProject\\Sever\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{72ACAACB-67AD-47C7-9B93-56D8EF7C4EBE}|angularService\\angularService.csproj|c:\\users\\user1\\desktop\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4 (7)\\angularrecipesproject\\sever\\angularservice\\controllers\\recipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72ACAACB-67AD-47C7-9B93-56D8EF7C4EBE}|angularService\\angularService.csproj|solutionrelative:angularservice\\controllers\\recipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72ACAACB-67AD-47C7-9B93-56D8EF7C4EBE}|angularService\\angularService.csproj|C:\\Users\\user1\\Desktop\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4 (7)\\AngularRecipesProject\\Sever\\angularservice\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72ACAACB-67AD-47C7-9B93-56D8EF7C4EBE}|angularService\\angularService.csproj|solutionrelative:angularservice\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72ACAACB-67AD-47C7-9B93-56D8EF7C4EBE}|angularService\\angularService.csproj|C:\\Users\\user1\\Desktop\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4 (7)\\AngularRecipesProject\\Sever\\angularservice\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72ACAACB-67AD-47C7-9B93-56D8EF7C4EBE}|angularService\\angularService.csproj|solutionrelative:angularservice\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72ACAACB-67AD-47C7-9B93-56D8EF7C4EBE}|angularService\\angularService.csproj|C:\\Users\\user1\\Desktop\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4 (7)\\AngularRecipesProject\\Sever\\angularservice\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72ACAACB-67AD-47C7-9B93-56D8EF7C4EBE}|angularService\\angularService.csproj|solutionrelative:angularservice\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72ACAACB-67AD-47C7-9B93-56D8EF7C4EBE}|angularService\\angularService.csproj|C:\\Users\\user1\\Desktop\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4 (7)\\AngularRecipesProject\\Sever\\angularservice\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72ACAACB-67AD-47C7-9B93-56D8EF7C4EBE}|angularService\\angularService.csproj|solutionrelative:angularservice\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72ACAACB-67AD-47C7-9B93-56D8EF7C4EBE}|angularService\\angularService.csproj|C:\\Users\\user1\\Desktop\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4 (7)\\AngularRecipesProject\\Sever\\angularservice\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72ACAACB-67AD-47C7-9B93-56D8EF7C4EBE}|angularService\\angularService.csproj|solutionrelative:angularservice\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72ACAACB-67AD-47C7-9B93-56D8EF7C4EBE}|angularService\\angularService.csproj|C:\\Users\\user1\\Desktop\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4 (7)\\AngularRecipesProject\\Sever\\angularservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72ACAACB-67AD-47C7-9B93-56D8EF7C4EBE}|angularService\\angularService.csproj|solutionrelative:angularservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Users\\User\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA\\angular\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user1\\Downloads\\startbootstrap-freelancer-gh-pages\\startbootstrap-freelancer-gh-pages\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72ACAACB-67AD-47C7-9B93-56D8EF7C4EBE}|angularService\\angularService.csproj|C:\\Users\\user1\\Desktop\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4 (7)\\AngularRecipesProject\\Sever\\angularservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{72ACAACB-67AD-47C7-9B93-56D8EF7C4EBE}|angularService\\angularService.csproj|solutionrelative:angularservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72ACAACB-67AD-47C7-9B93-56D8EF7C4EBE}|angularService\\angularService.csproj|C:\\Users\\user1\\Desktop\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4 (7)\\AngularRecipesProject\\Sever\\angularservice\\angularservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{72ACAACB-67AD-47C7-9B93-56D8EF7C4EBE}|angularService\\angularService.csproj|solutionrelative:angularservice\\angularservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "styles.css",
+              "DocumentMoniker": "C:\\Users\\user1\\Downloads\\startbootstrap-freelancer-gh-pages\\startbootstrap-freelancer-gh-pages\\css\\styles.css",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\startbootstrap-freelancer-gh-pages\\startbootstrap-freelancer-gh-pages\\css\\styles.css",
+              "ToolTip": "C:\\Users\\user1\\Downloads\\startbootstrap-freelancer-gh-pages\\startbootstrap-freelancer-gh-pages\\css\\styles.css",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\startbootstrap-freelancer-gh-pages\\startbootstrap-freelancer-gh-pages\\css\\styles.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-08T07:12:19.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4 (7)\\AngularRecipesProject\\Sever\\angularService\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "angularService\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4 (7)\\AngularRecipesProject\\Sever\\angularService\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "angularService\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAAA0AAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T12:56:19.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RecipeController.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4 (7)\\AngularRecipesProject\\Sever\\angularService\\Controllers\\RecipeController.cs",
+              "RelativeDocumentMoniker": "angularService\\Controllers\\RecipeController.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4 (7)\\AngularRecipesProject\\Sever\\angularService\\Controllers\\RecipeController.cs",
+              "RelativeToolTip": "angularService\\Controllers\\RecipeController.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAAAEoAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T12:56:20.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Recipe.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4 (7)\\AngularRecipesProject\\Sever\\angularService\\Recipe.cs",
+              "RelativeDocumentMoniker": "angularService\\Recipe.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4 (7)\\AngularRecipesProject\\Sever\\angularService\\Recipe.cs",
+              "RelativeToolTip": "angularService\\Recipe.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAABIAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T12:56:20.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4 (7)\\AngularRecipesProject\\Sever\\angularService\\Category.cs",
+              "RelativeDocumentMoniker": "angularService\\Category.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4 (7)\\AngularRecipesProject\\Sever\\angularService\\Category.cs",
+              "RelativeToolTip": "angularService\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T12:56:20.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Users\\User\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA\\angular\\Program.cs",
+              "ToolTip": "D:\\Users\\User\\Desktop\\\u05EA\u05DB\u05E0\u05D5\u05EA\\angular\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-22T09:45:22.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4 (7)\\AngularRecipesProject\\Sever\\angularService\\appsettings.json",
+              "RelativeDocumentMoniker": "angularService\\appsettings.json",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4 (7)\\AngularRecipesProject\\Sever\\angularService\\appsettings.json",
+              "RelativeToolTip": "angularService\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-07T12:56:20.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "angularService.csproj",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4 (7)\\AngularRecipesProject\\Sever\\angularService\\angularService.csproj",
+              "RelativeDocumentMoniker": "angularService\\angularService.csproj",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4 (7)\\AngularRecipesProject\\Sever\\angularService\\angularService.csproj",
+              "RelativeToolTip": "angularService\\angularService.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003627|",
+              "WhenOpened": "2024-03-07T12:56:20.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4 (7)\\AngularRecipesProject\\Sever\\angularService\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "angularService\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4 (7)\\AngularRecipesProject\\Sever\\angularService\\Controllers\\UserController.cs",
+              "RelativeToolTip": "angularService\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T12:56:20.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4 (7)\\AngularRecipesProject\\Sever\\angularService\\User.cs",
+              "RelativeDocumentMoniker": "angularService\\User.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4 (7)\\AngularRecipesProject\\Sever\\angularService\\User.cs",
+              "RelativeToolTip": "angularService\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T12:56:20.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4 (7)\\AngularRecipesProject\\Sever\\angularService\\Program.cs",
+              "RelativeDocumentMoniker": "angularService\\Program.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4 (7)\\AngularRecipesProject\\Sever\\angularService\\Program.cs",
+              "RelativeToolTip": "angularService\\Program.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAgwCwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T12:56:20.739Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

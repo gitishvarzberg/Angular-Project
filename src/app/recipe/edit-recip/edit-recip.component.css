@@ -1,0 +1,166 @@
+body {
+    background: #C5E1A5;
+    box-shadow: none !important;
+    direction: rtl;
+    /* כיוון כתיבה מימין לשמאל */
+    text-align: right;
+    /* יישור טקסט לימין */
+    background-image: '../assets/spicy-tomato-soup-with-meatballs-pasta-vegetables-healthy-dinner-top-view.jpg';
+}
+
+.image-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.image-container img {
+
+    width: 100%;
+    height: 140%;
+    object-fit: cover;
+}
+
+form {
+    width: 50%;
+    margin: 60px auto;
+    padding: 60px 120px 80px 120px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8) ;
+
+    z-index: 1;
+    position: relative;
+    top: 13vh;
+    border-radius: 40px;
+    margin-bottom: 67vh;
+}
+
+label {
+    display: block;
+    position: relative;
+    margin: 40px 0px;
+    text-align: right;
+}
+
+.label-txt {
+    top: -1.6em;
+    font-family: sans-serif;
+    font-size: .8em;
+    letter-spacing: 1px;
+    color: rgb(120, 120, 120);
+    transition: ease .3s;
+    text-align: right;
+    margin: auto;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+    text-align: right;
+}
+
+.line-box {
+    position: relative;
+    width: 100%;
+    height: 2px;
+    background: #BCBCBC;
+    text-align: right;
+}
+
+.line {
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #FFC312;
+    transition: ease .3s;
+}
+
+.input:focus+.line-box .line {
+    width: 100%;
+}
+
+.label-active {
+    top: -3em;
+}
+
+button {
+    display: inline-block;
+    padding: 12px 24px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    background: #FFC312;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: ease .3s;
+    text-align: center;
+    margin: 20px auto;
+}
+
+button:hover {
+    background: rgb(0, 0, 0);
+    color: #ffffff;
+}
+
+.form-floating {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.example-full-width {
+    width: 100%;
+}
+
+.mat-input-element {
+    background: transparent;
+    border: none;
+    outline: none;
+    text-align: right;
+}
+
+.mat-mdc-form-field-input-control {
+    text-align: right;
+}
+
+.mat-label {
+    text-align: right;
+}
+
+.form-floating .example-full-width .mat-form-field .mat-form-field-wrapper {
+    background: none;
+    text-align: right;
+}
+
+.main-container {
+    position: relative;
+}
+
+.tytle {
+    color: #FFC312;
+    font-weight: bold;
+}
+
+.secondtytle {
+    color: #FFC312;
+    padding: 5px;
+    font-size: xx-large;
+}
+
+.example-full-width {
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+}

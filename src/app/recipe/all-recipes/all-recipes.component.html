@@ -1,0 +1,53 @@
+<div class="filter">
+  <button class="filterOption-button">
+    <select class="form-select" aria-label="Default select example" [(ngModel)]="filterOption">
+      <option value="default" selected>ללא</option>
+      <option id="name" value="name">לפי שם</option>
+      <option value="category">לפי קטגוריה</option>
+      <option value="time">לפי זמן הכנת המתכון</option>
+    </select>
+    <label for="filterOption" id="filterOption-label">אפשרויות סינון</label>
+    <img id="search-img" src="../assets/search.png" alt="icon">
+  </button>
+  <div *ngIf="filterOption === 'name'">
+    <div id="recipeName">
+      <label for="recipeName">שם</label>
+      <input type="text" [(ngModel)]="recipeName" (input)="filterRecip(recipeName)">
+      <div _ngcontent-ng-c631245524="" class="line-box">
+        <div _ngcontent-ng-c631245524="" class="line"></div>
+      </div>
+    </div>
+  </div>
+
+  <div *ngIf="filterOption === 'time'">
+    <label  for="recipeTime">זמן הכנה</label>
+    <input type="text" id="recipeTime" [(ngModel)]="recipeTime" (input)="filterRecipTime(recipeTime)">
+    <div _ngcontent-ng-c631245524="" class="line-box">
+      <div _ngcontent-ng-c631245524="" class="line"></div>
+    </div>
+  </div>
+
+  <button *ngIf="filterOption === 'category'" class="filterOption-button">
+    <label for="categorySelect">בחר קטגוריה:</label>
+    <select id="categorySelect" class="form-select" aria-label="Default select example" [(ngModel)]="selectedOption"
+      (ngModelChange)="onSelectChange($event)">
+      <option *ngFor="let option of categories" [value]="option.code">{{ option.name }}</option>
+    </select>
+  </button>
+</div>
+
+<div *ngIf="filterOption === 'default'">
+  <input type="text" id="recipeTime" [(ngModel)]="recipeTime" (input)="filterRecipNone()">
+  <div _ngcontent-ng-c631245524="" class="line-box">
+    <div _ngcontent-ng-c631245524="" class="line"></div>
+  </div>
+</div>
+
+
+  <div class="container">
+    <div class="row">
+      <div *ngFor="let recipe of filteredRecipes1" class="col-md-4 mb-4">
+        <app-small-recipe [recipe]="recipe"></app-small-recipe>
+      </div>
+    </div>
+  </div>

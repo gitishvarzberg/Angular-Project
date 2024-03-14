@@ -1,0 +1,41 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<nav class="navbar navbar-expand-md navbar-dark fixed-top shrink" id="banner" >
+	<div class="container">
+  <!-- Brand -->
+  <img class="navbar-brand" src="../../assets/logo.png"><span>Logo</span> Here/>
+  
+  <!-- Toggler/collapsibe Button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Navbar links -->
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link"(click)="navlogin()">login</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" (click)="navregister()">register</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" (click)="navlogout()" >logout</a>
+      </li> 
+      <li class="nav-item">
+        <a class="nav-link" (click)="navallrecipes()">all recipes</a>
+      </li> 
+      <li class="nav-item">
+        <a class="nav-link" (click)="navaddrecipe()" >add recipe</a>
+      </li>     
+    </ul>
+  </div>
+	</div>
+</nav>
+
+
+	<!-- <button type="button" class="btn btn-warning text-dark btn-banner">Get started</button> -->
+

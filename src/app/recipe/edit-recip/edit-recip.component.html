@@ -1,0 +1,88 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<div class="main-container">
+
+    <div class="image-container">
+        <img class="img" src="../assets/back.jpg" alt="Spicy Tomato Soup">
+    </div>
+
+    <form [formGroup]="editRecipe">
+        <h1 class="tytle">עדכון מתכון</h1>
+        <label>
+            <span class="label-txt">שם המתכון</span>
+            <input type="text" class="input" formControlName="name">
+            <div class="line-box">
+                <div class="line"></div>
+            </div>
+        </label>
+        <label>
+            <p class="label-txt">דרגת קושי</p>
+            <input type="text" class="input" formControlName="level_of_difficulty">
+            <div class="line-box">
+                <div class="line"></div>
+            </div>
+        </label>
+        <label>
+            <p class="label-txt">זמן הכנה</p>
+            <input type="text" class="input" formControlName="preparation_time">
+            <div class="line-box">
+                <div class="line"></div>
+            </div>
+        </label>
+        <label>
+            <p class="label-txt">תמונה</p>
+            <input type="text" class="input" formControlName="picture_Recipe">
+            <div class="line-box">
+                <div class="line"></div>
+            </div>
+        </label>
+
+        <p class="label-txt">קטגוריה</p>
+        <div class="form-floating mb-3">
+            <mat-form-field class="example-full-width">
+                <input type="text" matInput [formControl]="selectedCategory" [matAutocomplete]="auto">
+                <mat-autocomplete #auto="matAutocomplete">
+                    <mat-option *ngFor="let option of options" [value]="option">
+                        {{ option }}
+                    </mat-option>
+                </mat-autocomplete>
+            </mat-form-field>
+        </div>
+
+        <h3  class="secondtytle">המוצרים</h3>
+        <div formArrayName="products">
+            <div *ngFor="let productControl of editRecipe.get('products')['controls']; let i = index">
+                <label>
+                    <p class="label-txt">מוצר {{ i + 1 }}</p>
+                    <input type="text" class="input" [formControl]="productControl"
+                        (input)="onProductInputChange(productControl, i)">
+                    <div class="line-box">
+                        <div class="line"></div>
+                    </div>
+                </label>
+            </div>
+        </div>
+
+        <h3 class="secondtytle">הוראות הכנה</h3>
+        <div formArrayName="instructions">
+            <div *ngFor="let instructionsControl of editRecipe.get('instructions')['controls']; let i = index">
+                <label>
+                    <p class="label-txt">שלב {{ i + 1 }}:</p>
+                    <input type="text" class="input" [formControl]="instructionsControl"
+                        (input)="onInstructionsInputChange(instructionsControl, i)">
+                    <div class="line-box">
+                        <div class="line"></div>
+                    </div>
+                </label>
+            </div>
+        </div>
+        <div class="button-container">
+            <button type="button" (click)="addInstructions()">הוסף הוראת הכנה</button>
+            <button type="button" (click)="addProduct()">הוסף מוצר</button>
+            <button type="submit" (click)="submit()">עדכן</button>
+            <button type="submit" (click)="submit()">בטל</button>
+
+        </div>
+    </form>

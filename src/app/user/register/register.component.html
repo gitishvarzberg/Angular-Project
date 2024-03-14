@@ -1,0 +1,126 @@
+<p>register works!</p>
+
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<div class="image-container">
+	<img class="img" src="../assets/back.jpg" alt="Spicy Tomato Soup">
+</div>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+    integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+<link rel="stylesheet" type="text/css" href="register.component.css">
+
+
+<div class="container">
+    <div class="d-flex justify-content-center h-100">
+        <div class="card">
+            <div class="card-header">
+                <h3>Sign In</h3>
+                <div class="d-flex justify-content-end social_icon">
+                    <span><i class="fab fa-facebook-square"></i></span>
+                    <span><i class="fab fa-google-plus-square"></i></span>
+                    <span><i class="fab fa-twitter-square"></i></span>
+                </div>
+            </div>
+            <div class="card-body">
+                <form [formGroup]="addForm">
+                    <div class="input-group form-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fas fa-user"></i></span>
+                        </div>
+                        <input type="text" class="form-control" formControlName="name">
+                    </div>
+                    <ng-container *ngIf="addForm.controls['name'].errors; else validName">
+                        <div *ngIf="addForm.controls['name'].errors['required']">
+                            <p>זהו שדה חובה</p>
+                        </div>
+                    </ng-container>
+                    <ng-template #validName>
+                        <div>
+                            <p>השדה תקף</p>
+                        </div>
+                    </ng-template>
+                    <div class="input-group form-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fas fa-key"></i></span>
+                        </div>
+                        <input type="password" class="form-control" formControlName="password">
+                    </div>
+                    <ng-container *ngIf="addForm.controls['password'].errors; else validPassword">
+                        <div *ngIf="addForm.controls['password'].errors['required']">
+                            <p>זהו שדה חובה</p>
+                        </div>
+                        <div *ngIf="addForm.controls['password'].errors['minlength']">
+                            <p>הכנס סיסמה באורך 3 תווים לפחות</p>
+                        </div>
+                    </ng-container>
+                    <ng-template #validPassword>
+                        <div>
+                            <p>השדה תקף</p>
+                        </div>
+                    </ng-template>
+
+                    <div class="input-group form-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fas fa-user"></i></span>
+                        </div>
+                        <input type="text" class="form-control" formControlName="email">
+                    </div>
+
+                    <ng-container *ngIf="addForm.controls['email'].errors;else validEmail">
+                        <div *ngIf="addForm.controls['email'].errors">
+                            <p> כתובת מייל</p>
+                        </div>
+                    </ng-container>
+                    <ng-template #validEmail>
+                        <div>
+                            <p>השדה תקף</p>
+                        </div>
+                    </ng-template>
+                    <div class="input-group form-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fas fa-user"></i></span>
+                        </div>
+                        <input type="text" class="form-control" formControlName="adress">
+                    </div>
+                    <ng-container *ngIf="addForm.controls['adress'].errors; else validAdress">
+                        <div *ngIf="addForm.controls['adress'].errors['required']">
+                            <p>כתובת</p>
+                        </div>
+                    </ng-container>
+                    <ng-template #validAdress>
+                        <div>
+                            <p>השדה תקף</p>
+                        </div>
+                    </ng-template>
+
+                    <div class="row align-items-center remember">
+                        <input type="checkbox">Remember Me
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Login" class="login_btn btn float-right "
+                            [disabled]="!addForm.valid" (click)="save()">
+
+                        <div *ngIf="UserFound">
+                            <p>the user already exist</p>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="card-footer">
+                <div class="d-flex justify-content-center links">
+                    Don't have an account?<a href="#">Sign Up</a>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <a href="#">Forgot your password?</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

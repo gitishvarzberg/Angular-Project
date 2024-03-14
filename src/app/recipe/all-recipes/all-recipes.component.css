@@ -1,0 +1,146 @@
+
+.social-card-header {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 96px;
+}
+
+.social-card-header i {
+    font-size: 32px;
+    color: #FFF;
+}
+
+.bg-facebook {
+    background-color: #3b5998;
+}
+
+.text-facebook {
+    color: #3b5998;
+}
+
+.bg-google-plus {
+    background-color: #dd4b39;
+}
+
+.text-google-plus {
+    color: #dd4b39;
+}
+
+.bg-twitter {
+    background-color: #1da1f2;
+}
+
+.text-twitter {
+    color: #1da1f2;
+}
+
+.bg-pinterest {
+    background-color: #bd081c;
+}
+
+.text-pinterest {
+    color: #bd081c;
+}
+
+.share:hover {
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.example-full-width {
+    width: 100%;
+}
+
+::ng-deep .btn.btn-outline-primary.btn-sm {
+    color: #fed136;
+    background-color: transparent;
+    background-image: none;
+    border-color: #fed136;
+}
+
+::ng-deep .d-inline-block.mb-2 {
+    color: #fed136 !important;
+}
+
+.filterOption-button {
+    background-color: white;
+    border-radius: 10px;
+    align-items:center;
+    display: flex;
+    height: 28px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+select {
+    border: none;
+}
+
+select:hover {
+    border: none;
+}
+
+#search-img {
+    height: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+#filterOption-label {
+    text-align: center;
+}
+
+
+/* .line-box[_ngcontent-ng-c631245524] {
+    position: relative;
+    width: 100%;
+    height: 2px;
+    background: #BCBCBC;
+    text-align: left;
+    direction: ltr;
+} */
+
+input {
+    width: 8vw;
+    padding: 18px;
+    background: transparent;
+    border: none;
+    outline: none;
+    text-align: right;
+}
+
+.line-box[_ngcontent-ng-c631245524] {
+    position: relative;
+    width: 100px;
+    height: 2px;
+    background: #BCBCBC;
+    direction: rtl;
+    margin-bottom: 2vh;
+
+}
+
+.line {
+    position: absolute;
+    width: 10vw;
+    height: 2px;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #FFC312;
+    transition: ease .3s;
+}
+.filter{
+    margin-left:15vw;
+    margin-top:15vw;
+}

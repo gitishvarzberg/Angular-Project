@@ -1,0 +1,47 @@
+
+
+.share:hover {
+        text-decoration: none;
+    opacity: 0.8;
+}
+.card {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+ 
+  .card-img-bottom {
+    object-fit: cover;
+  }
+ .star{
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+    margin-top: 5px;
+
+ }
+ .star-container{
+display: flex;
+margin-top: 10px;
+margin-left: 35%;
+ }
+ .star-item{
+  margin-bottom: 10px;
+ }
+ .d-inline-block mb-2 text-primary{
+    font-size:xx-large;
+ }
+ strong{
+    font-size:x-large;
+}   
+p{
+    margin: 10px;
+}
+.btn-outline-primary{
+bottom: unset;
+}
+.d-inline-block.mb-2 {
+    color: black !important;
+}
+#showDetails{
+    margin-top: 15px;
+}

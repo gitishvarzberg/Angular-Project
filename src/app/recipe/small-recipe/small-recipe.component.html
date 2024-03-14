@@ -1,0 +1,25 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+  integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+<div class="card h-100">
+  <div class="card-body">
+    <strong class="d-inline-block mb-2 text-primary">{{ recipe.name }}</strong>
+    <p>משך הכנה: {{ recipe.preparation_time }}</p>
+    <p class="card-text">
+    <p>דרגת קושי: {{recipe.level_of_difficulty}}</p>
+    <div class="star-container">
+      <div></div>
+      <div *ngFor="let star of starsArray" class="star-item">
+        <img [src]="'../assets/star1.jpg'" alt="star" class="star">
+      </div>
+    </div>
+    <button (click)="showDetails(recipe)" class="btn btn-outline-primary btn-sm" role="button"
+      href="http://www.jquery2dotnet.com/">Recipe Details</button>
+  </div>
+  <img class="card-img-bottom" alt="Thumbnail [200x250]" [src]="recipe.picture_Recipe" [alt]="recipe.name"
+    style="width: 100%; height: 200px;">
+</div>
