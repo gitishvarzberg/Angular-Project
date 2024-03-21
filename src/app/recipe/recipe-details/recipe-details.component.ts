@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Recipe } from '../../recip.model';
 import { RecipService } from '../../services/recip.service';
-import { CommonModule } from '@angular/common';
 import { User } from '../../user.model';
 import { ActivatedRoute, Router } from '@angular/router';
 import Swal from 'sweetalert2';

@@ -95,3 +95,35 @@ C:\Users\user1\Desktop\‏‏תיקיה חדשה (7)\AngularRecipesProject\Sever
 C:\Users\user1\Desktop\‏‏תיקיה חדשה (7)\AngularRecipesProject\Sever\angularService\obj\Debug\net6.0\angularService.pdb
 C:\Users\user1\Desktop\‏‏תיקיה חדשה (7)\AngularRecipesProject\Sever\angularService\obj\Debug\net6.0\angularService.genruntimeconfig.cache
 C:\Users\user1\Desktop\‏‏תיקיה חדשה (7)\AngularRecipesProject\Sever\angularService\obj\Debug\net6.0\ref\angularService.dll
+D:\Users\User\Desktop\angular\Sever\angularService\bin\Debug\net6.0\appsettings.Development.json
+D:\Users\User\Desktop\angular\Sever\angularService\bin\Debug\net6.0\appsettings.json
+D:\Users\User\Desktop\angular\Sever\angularService\bin\Debug\net6.0\angularService.exe
+D:\Users\User\Desktop\angular\Sever\angularService\bin\Debug\net6.0\angularService.deps.json
+D:\Users\User\Desktop\angular\Sever\angularService\bin\Debug\net6.0\angularService.runtimeconfig.json
+D:\Users\User\Desktop\angular\Sever\angularService\bin\Debug\net6.0\angularService.dll
+D:\Users\User\Desktop\angular\Sever\angularService\bin\Debug\net6.0\angularService.pdb
+D:\Users\User\Desktop\angular\Sever\angularService\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Users\User\Desktop\angular\Sever\angularService\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Users\User\Desktop\angular\Sever\angularService\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Users\User\Desktop\angular\Sever\angularService\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Users\User\Desktop\angular\Sever\angularService\obj\Debug\net6.0\angularService.csproj.AssemblyReference.cache
+D:\Users\User\Desktop\angular\Sever\angularService\obj\Debug\net6.0\angularService.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\User\Desktop\angular\Sever\angularService\obj\Debug\net6.0\angularService.AssemblyInfoInputs.cache
+D:\Users\User\Desktop\angular\Sever\angularService\obj\Debug\net6.0\angularService.AssemblyInfo.cs
+D:\Users\User\Desktop\angular\Sever\angularService\obj\Debug\net6.0\angularService.csproj.CoreCompileInputs.cache
+D:\Users\User\Desktop\angular\Sever\angularService\obj\Debug\net6.0\angularService.MvcApplicationPartsAssemblyInfo.cs
+D:\Users\User\Desktop\angular\Sever\angularService\obj\Debug\net6.0\angularService.MvcApplicationPartsAssemblyInfo.cache
+D:\Users\User\Desktop\angular\Sever\angularService\obj\Debug\net6.0\staticwebassets\msbuild.angularService.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Users\User\Desktop\angular\Sever\angularService\obj\Debug\net6.0\staticwebassets\msbuild.build.angularService.props
+D:\Users\User\Desktop\angular\Sever\angularService\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.angularService.props
+D:\Users\User\Desktop\angular\Sever\angularService\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.angularService.props
+D:\Users\User\Desktop\angular\Sever\angularService\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Users\User\Desktop\angular\Sever\angularService\obj\Debug\net6.0\staticwebassets.build.json
+D:\Users\User\Desktop\angular\Sever\angularService\obj\Debug\net6.0\staticwebassets.development.json
+D:\Users\User\Desktop\angular\Sever\angularService\obj\Debug\net6.0\scopedcss\bundle\angularService.styles.css
+D:\Users\User\Desktop\angular\Sever\angularService\obj\Debug\net6.0\angularService.csproj.CopyComplete
+D:\Users\User\Desktop\angular\Sever\angularService\obj\Debug\net6.0\angularService.dll
+D:\Users\User\Desktop\angular\Sever\angularService\obj\Debug\net6.0\refint\angularService.dll
+D:\Users\User\Desktop\angular\Sever\angularService\obj\Debug\net6.0\angularService.pdb
+D:\Users\User\Desktop\angular\Sever\angularService\obj\Debug\net6.0\angularService.genruntimeconfig.cache
+D:\Users\User\Desktop\angular\Sever\angularService\obj\Debug\net6.0\ref\angularService.dll

@@ -1,7 +1,7 @@
 
 import { Component, OnInit } from '@angular/core';
 import { Recipe } from '../../recip.model';
-import { FormArray, FormControl, FormGroup } from '@angular/forms';
+import { FormArray, FormControl, FormGroup, Validators } from '@angular/forms';
 import { Category } from '../../category.model';
 import { RecipService } from '../../services/recip.service';
 import { Router } from '@angular/router';
@@ -30,12 +30,12 @@ export class AddRecipeComponent implements OnInit {
     this.recipe = this._recipeService.recipe
     this.selectedCategory = new FormControl();
     this.addRecipe = new FormGroup({
-      "name": new FormControl(),
-      "level_of_difficulty": new FormControl(),
-      "picture_Recipe": new FormControl(),
-      "preparation_time": new FormControl(),
-      "products": new FormArray([]),
-      "instructions": new FormArray([]),
+      "name": new FormControl('',Validators.required),
+      "level_of_difficulty": new FormControl('',[Validators.required,Validators.max(5),Validators.min(1)]),
+      "picture_Recipe": new FormControl('',Validators.required),
+      "preparation_time": new FormControl('',Validators.required),
+      "products": new FormArray([],Validators.required),
+      "instructions": new FormArray([],Validators.required),
     })
     this._recipeService.getCategoriesFromServer().subscribe({
       next: (res) => {
@@ -88,6 +88,13 @@ export class AddRecipeComponent implements OnInit {
   }
 
   submit() {
+    if(!this.addRecipe.valid){      
+      Swal.fire({
+        title: "אחד הפריטים שהכנסת אינו תקין או שלא מלאתה את כל השדות ",
+        icon: "error"
+      });
+      return;
+    }
     let r: Recipe = this.addRecipe.value
     r.code = RecipService.code++
     r.code_Chef = this.retrievedDetails.code

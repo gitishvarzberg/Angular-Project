@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-import { FormArray, FormControl, FormGroup } from '@angular/forms';
+import { FormArray, FormControl, FormGroup, Validators } from '@angular/forms';
 import { Recipe } from '../../recip.model';
 import { RecipService } from '../../services/recip.service';
 import { Category } from '../../category.model';
 import { Router } from '@angular/router';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-edit-recip',
@@ -26,12 +27,12 @@ export class EditRecipComponent implements OnInit {
     this.recipe = this._recipeService.recipe
     this.selectedCategory = new FormControl(this.recipe.category ? this.recipe.category.name : '');
     this.editRecipe = new FormGroup({
-      "name": new FormControl(this._recipeService.recipe.name),
-      "level_of_difficulty": new FormControl(this._recipeService.recipe.level_of_difficulty),
-      "picture_Recipe": new FormControl(this._recipeService.recipe.picture_Recipe),
-      "preparation_time": new FormControl(this._recipeService.recipe.preparation_time),
-      "products": new FormArray([]),
-      "instructions": new FormArray([]),
+      "name": new FormControl(this._recipeService.recipe.name,Validators.required),
+      "level_of_difficulty": new FormControl(this._recipeService.recipe.level_of_difficulty,[Validators.required,Validators.max(5),Validators.min(1)]),
+      "picture_Recipe": new FormControl(this._recipeService.recipe.picture_Recipe,Validators.required),
+      "preparation_time": new FormControl(this._recipeService.recipe.preparation_time,Validators.required),
+      "products": new FormArray([],Validators.required),
+      "instructions": new FormArray([],Validators.required),
     })
 
     this._recipeService.recipe.products.forEach(product => {
@@ -90,6 +91,14 @@ export class EditRecipComponent implements OnInit {
   }
 
   submit() {
+    if(!this.editRecipe.valid){
+      Swal.fire({
+        title: "אחד הפריטים שהכנסת אינו תקין או שלא מלאתה את כל השדות ",
+        icon: "error"
+      });
+      return;
+    }
+    else{
     let r: Recipe = this.editRecipe.value
     r.code = this._recipeService.recipe.code;
     r.code_Chef = this._recipeService.recipe.code_Chef
@@ -111,4 +120,4 @@ export class EditRecipComponent implements OnInit {
     );
   }
 }
-
+}
