@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\User\\Desktop\\angular\\Sever\\angularService\\angularService.csproj": {}
+    "D:\\Users\\User\\Desktop\\‏‏תיקיה חדשה (4)\\Sever\\angularService\\angularService.csproj": {}
   },
   "projects": {
-    "D:\\Users\\User\\Desktop\\angular\\Sever\\angularService\\angularService.csproj": {
+    "D:\\Users\\User\\Desktop\\‏‏תיקיה חדשה (4)\\Sever\\angularService\\angularService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\User\\Desktop\\angular\\Sever\\angularService\\angularService.csproj",
+        "projectUniqueName": "D:\\Users\\User\\Desktop\\‏‏תיקיה חדשה (4)\\Sever\\angularService\\angularService.csproj",
         "projectName": "angularService",
-        "projectPath": "D:\\Users\\User\\Desktop\\angular\\Sever\\angularService\\angularService.csproj",
+        "projectPath": "D:\\Users\\User\\Desktop\\‏‏תיקיה חדשה (4)\\Sever\\angularService\\angularService.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\User\\Desktop\\angular\\Sever\\angularService\\obj\\",
+        "outputPath": "D:\\Users\\User\\Desktop\\‏‏תיקיה חדשה (4)\\Sever\\angularService\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,6 +35,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -61,6 +62,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.32, 6.0.32]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.32, 6.0.32]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.32, 6.0.32]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.32, 6.0.32]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -69,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     }
