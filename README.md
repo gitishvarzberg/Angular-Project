@@ -17,10 +17,10 @@ This project is an Angular-based web application designed to provide users with 
 
 ## Screenshots
 
-### Home Page
+### Log-in Page
 ![Home Page](src/assets/צילום%20מסך_20240815_172129.png)
 
-### Recipe List
+### Edir Recipe
 ![Recipe List](src/assets/צילום%20מסך_20240815_172852.png)
 
 ### Recipe Details
