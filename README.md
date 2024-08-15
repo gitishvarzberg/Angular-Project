@@ -12,8 +12,8 @@ This project is an Angular-based web application designed to provide users with 
 ## Technologies Used
 
 - **Frontend**: Angular
-- **Backend**: Node.js with Express.js
-- **Database**: MongoDB
+- **Backend**: .NET C#
+- **Database**: Sql Server
 
 ## Screenshots
 
